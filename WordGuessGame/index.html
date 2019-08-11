@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Word Guess Game-Walking Dead Edition</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts/stylesheet.css">
+
+</head>
+
+<body>
+    <bg>
+        <div class="jumbotron bg-none" style="background-color: #00000000;  ">
+
+            <h1 style="text-align: center">Guess the Word</h1>
+            <h2 style="border-top: 1px solid red; text-align: center; text-color: #e33;">Walking Dead Editon</h2>
+
+        </div>
+
+        <div class="row">
+            <div class="col-6 text-center">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-body">
+                        <img id="fightscene" src="assets/images/rickvswalker.jpg" class="card-img-top" alt="Rick Vs Walkers" style="display:normal;">
+                        <img src="assets/images/rickbloody.jpg" class="card-img-top" alt="Rick Won" style="display: none;">
+                        <img src="assets/images/walker.jpg" class="card-img-top" alt="Walker Won" style="display: none;">
+
+                        <h5 class="rickvs">Rick Vs. Walkers</h5>
+                        <p class="card-text">Choose a letter to see who wins!</p>
+
+                       
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-6 text-center">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Click Here to</h5>
+
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="card text-white bg-dark mb-3">
+                            <div class="card-body">
+                                <p id="question">Type a Letter to Enter a guess</p>
+                                <input type="text" id="guess" onkeyup="enterGuess()" maxlength="1">
+
+                                <h5 class="card-title"><span id="rightGuess">Answer</span></h5>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="card text-white bg-dark mb-3" id="mainGame">
+                            <div class="card-body">
+                                <h5>Letters Guessed:</h5>
+                                <p id="wrongGuess"></p>
+                                <h6 id="RRguess">Guesses Remaining:</h5>
+
+                                <h5><span id="guessesLeft">numremaining</span></h5>
+
+                                <a id="cancelbtn" href="#" class="btn btn-danger">Cancel</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </bg>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

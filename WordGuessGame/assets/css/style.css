@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Dead Kansas';
+    src: url('deadkansas-webfont.woff2') format('woff2'),
+         url('deadkansas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'dead_kansasregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 500%;
+}
+
+h2 {
+    font-family: 'dead_kansasregular';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 24px;
+
+}
+
+body {
+    background-image: url("../images/walkingdeadatlanta.jpg");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rickvs {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card {
+    align-content: center;
+}
+
+#Startbtn {
+    margin-left: auto;
+    margin-right: auto;
+}
