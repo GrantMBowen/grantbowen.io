@@ -122,7 +122,7 @@ p {
 #bio{
     display: block;
     height: 80vh;
-    margin: 25% 0 0 35%;
+    margin: 10% 0 0 35%;
     z-index: 1;
 }
 
@@ -225,8 +225,8 @@ p {
                  }
                 #bio{
                     display: block;
-                    height: 80vh;
-                    margin: 25% 0% 0% 0%;
+                    height: 100vh;
+                    margin: 0% 0% 0% 0%;
                     padding-left: 10%;
                     z-index: 1;
                 }
