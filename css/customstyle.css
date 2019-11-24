@@ -52,6 +52,11 @@ body {
     margin-top: 1rem;
     font-family: 'Roboto', sans-serif;
  }
+ a:active {
+    color: #ae8a28;
+    text-decoration: none;
+
+ }
  a:link {
      color: #ae8a28;
      text-decoration: none;
@@ -64,6 +69,7 @@ body {
 
  a:active {
      color: #fec006;
+     text-decoration: none;
  }
  #contact-clicks {
     
@@ -149,6 +155,7 @@ p {
     z-index: 3;
     margin-left: 25rem;
     margin-right: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 #footer {
