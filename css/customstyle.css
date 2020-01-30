@@ -1,6 +1,6 @@
 
 html {
-    background-color: black;
+    background-color: white;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -10,7 +10,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background: black;
+    background: white;
  }
  .hero {
     position: relative;
@@ -27,7 +27,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../assets/images/sugi-ban-wallpaper01.jpg);
+    /* background: url(../assets/images/sugi-ban-wallpaper01.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -35,10 +35,11 @@ body {
  }
  .hero-content {
     position: relative;
-    color: white;
+    color: black;
     text-align: left;
     margin: 0.1rem;
     padding-left: 15%;
+
  }
  .hero-title {
     font-size: 3rem;
@@ -58,7 +59,7 @@ body {
 
  }
  a:link {
-     color: #ae8a28;
+     color: black;
      text-decoration: none;
  }
 
@@ -73,7 +74,7 @@ body {
  }
  #contact-clicks {
     
-    color: white;
+    color: black;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +98,9 @@ body {
 #brand {
     position: fixed;
     z-index: 1;
-    padding: 5% 0% 0% 18%;
+    padding: 10% 0% 0% 0%;
+    margin: 0% 0% 0% 10%;
+    width: 30vw;
     /* background-color: black */
 }
 
@@ -105,21 +108,23 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif;
+    color: black;
 
 }
 
 h5 {
-    color: black;
+    color: white;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
 .bg {
     /* The image used */
     /* background-image: url("../assets/images/sugi-ban-wallpaper.jpg"); */
-    background-color: black;
+    background-color: white;
     background-repeat: repeat-y;
     background-size: 100vw;
     background-attachment: fixed; 
@@ -139,10 +144,10 @@ p {
 
 
 #portfolio-img {
-    opacity: 1;
-    color: black;
+    opacity: 100;
+    color: white;
     z-index: 1;
-    background-color: black;
+    background-color: white;
 }
 
 #portfolio-img:hover {
@@ -152,10 +157,15 @@ p {
 
 #portfolio-title {
     color: white;
+    background-color: white;
     z-index: 3;
     margin-left: 25rem;
     margin-right: auto;
     font-family: 'Raleway', sans-serif;
+}
+
+.card {
+    background: white;
 }
 
 #footer {
