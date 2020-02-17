@@ -96,12 +96,14 @@ body {
 
 #brand {
     position: fixed;
-    z-index: 1;
+    /* z-index: 1; */
     padding: 10% 0% 0% 0%;
     margin: 0% 0% 0% 10%;
     width: 30vw;
     /* background-color: black */
 }
+
+
 
 
 
@@ -163,9 +165,6 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
-.card {
-    background: white;
-}
 
 #footer {
     bottom: 0;
