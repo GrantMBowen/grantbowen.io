@@ -157,13 +157,27 @@ p {
 }
 
 #portfolio-title {
-    color: white;
+    color: black;
     background-color: white;
     z-index: 3;
-    margin-left: 25rem;
+    margin-left: auto;
     margin-right: auto;
     font-family: 'Raleway', sans-serif;
 }
+
+/* card-title {
+    margin: 1rem;
+    padding: 1rem;
+    align-self: left;
+}
+
+.card-text {
+    margin: 1rem;
+}
+
+.card-subtitle {
+    margin: 1rem
+} */
 
 
 #footer {
