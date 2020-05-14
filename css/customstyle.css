@@ -152,6 +152,10 @@ p {
 
 }
 
+.portfolio-container {
+    padding-top: 35vh;
+}
+
 
 #portfolio-img {
     opacity: 100;
