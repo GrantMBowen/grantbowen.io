@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h5 {
-    color: white;
+    color: black;
 }
 
 p {
@@ -168,6 +168,14 @@ p {
 #portfolio-img:hover {
     opacity: .8;
 
+}
+
+nav a {
+    color: black;
+    border-bottom: 1px solid #fec006;
+    /* line-height: 5rem; */
+    padding-bottom: .5rem;
+    
 }
 
 #portfolio-title {
