@@ -280,7 +280,7 @@
                      Responsive Mobile Menu 
     ======================================================*/
   .overlay-menu {
-      z-index: 10;
+      /* z-index: 10; */
     background: #fee497;
     color: rgb(13, 26, 38);
     display: flex;
