@@ -1,4 +1,17 @@
 
+.bgimage {
+    width:100%;
+    height:500px;
+    background: url('/assets/images/walker.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
 
 
 html {
@@ -42,6 +55,11 @@ body {
     margin: 0rem;
     padding-left: 0%;
 
+ }
+
+ .hero-img {
+     /* width: 100vw; */
+     
  }
  .hero-title {
     font-size: 3rem;
@@ -110,7 +128,22 @@ body {
 }
 
 .headshot {
-    width: 80%;
+   
+}
+
+.btn-floating {
+    background-color: #fec006;
+    box-shadow: 3px 3px 5px #b08f26
+}
+
+/* .btn-floating:hover {
+    background-color: #fec006;
+    box-shadow: 3px 3px 5px #b08f26
+} */
+
+.btn-floating:hover {
+    background-color: #fec006;
+    box-shadow: inset 3px 3px 5px #291F06;
 }
 
 
@@ -144,12 +177,13 @@ p {
     /* display: block; */
     /* height: 80vh; */
     /* margin: 0% 0% 0% 0%; */
-    padding-top: 35vh;
+    padding-top: 10vh;
     /* z-index: 1; */
 }
 
-#headshot {
-    size: fit-content;
+.headshot {
+    height: 20vw;
+    /* size: fit-content; */
 
 }
 
