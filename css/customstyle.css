@@ -164,6 +164,10 @@ p {
     color: black;
 }
 
+strong {
+    font-weight: 700;
+}
+
 .bg {
     /* The image used */
     /* background-image: url("../assets/images/sugi-ban-wallpaper.jpg"); */
@@ -171,6 +175,34 @@ p {
     background-repeat: repeat-y;
     background-size: 100vw;
     background-attachment: fixed; 
+}
+
+.banner {
+    width: 100vw;
+    overflow: hidden;
+    height: 20vh;
+    
+}
+
+.banner-img {
+    width: 150vw;
+    margin-top: -5%;
+}
+
+.processshot {
+    width: 100%;
+    overflow: hidden;
+    /* height: 20vh; */
+    
+}
+
+.process-img {
+    /* width: 150vw; */
+    /* margin-top: -5%; */
+    width: 100%;
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
 }
 
 #bio{
@@ -181,8 +213,15 @@ p {
     /* z-index: 1; */
 }
 
+.tldr {
+    background-color: #F7F7F7;
+    padding: 1rem;
+    margin: 0rem 0rem 2rem 0rem;
+    border: 1px solid #C9C9C9;
+}
+
 .headshot {
-    height: 20vw;
+    height: 18vw;
     /* size: fit-content; */
 
 }

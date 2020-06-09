@@ -27,3 +27,4 @@ $(document).ready(function(){
           toggleIcon.className = 'menuIcon';
       }
   });
+
