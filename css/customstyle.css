@@ -27,13 +27,36 @@ body {
     padding: 0;
     background: white;
  }
+
+ .landingsection {
+     padding-top: 60px;
+ }
+
+ .clientLogo {
+     width: 75%;
+     /* height: 60px; */
+     margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+     
+ }
+
+ .clientList {
+     align-content: center;
+     margin-top: auto;
+     margin-bottom: auto;
+     padding-top: 10px;
+ }
  .hero {
     position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     z-index: 9;
  }
  /* .hero::before {
@@ -54,19 +77,26 @@ body {
     text-align: center;
     margin: 0rem;
     padding-left: 0%;
+    padding-top: 5vh;
 
  }
+ .heroheadshot{
+     width: 15vw;
+ }
 
- .hero-img {
-     /* width: 100vw; */
+ .topimage {
+     width: 100%;
+
      
  }
+
  .hero-title {
+    clear: both;
     font-size: 3rem;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
-    border-bottom: 1px solid #fec006;
+    /* border-bottom: 1px solid #fec006; */
  }
  .hero-subtitle {
     font-size: 2rem;
@@ -208,7 +238,7 @@ strong {
 #bio{
     /* display: block; */
     /* height: 80vh; */
-    margin: 1rem 1rem 1rem 1rem;
+    /* margin: 1rem 1rem 1rem 1rem; */
     padding: 2rem 2rem 2rem 2rem;
     /* z-index: 1; */
 }
