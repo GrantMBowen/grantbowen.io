@@ -35,7 +35,7 @@
   .nav-wrapper {
     margin: auto;
     text-align: left;
-    width: 80%;
+    width: 100%;
   } @media(max-width: 768px) {
       .nav-wrapper {
         width: 90%;
@@ -49,9 +49,9 @@
   
   .logo {
     float: left;
-    margin-left: 0px;
-    font-size: 1.5em;
-    height: 30px;
+    margin-left: 15px;
+    font-size: 2rem;
+    height: 35px;
     letter-spacing: 1px;
     text-transform: uppercase;
   } @media(max-width: 768px) {
