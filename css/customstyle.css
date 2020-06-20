@@ -90,6 +90,79 @@ body {
      
  }
 
+ /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    /* background-color:; */
+    width: 100%;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    width: 65vw;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    /* color: #888; */
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #fec006;
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    /* background: #ddd; */
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #291F06;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .dotty, .dot:hover {
+    background-color: #fec006;
+  }
+  
+
  .hero-title {
     clear: both;
     font-size: 3rem;
@@ -275,6 +348,10 @@ strong {
 #portfolio-img:hover {
     opacity: .8;
 
+}
+
+.storyThumb {
+    object-fit: cover;
 }
 
 nav a {
