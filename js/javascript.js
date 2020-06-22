@@ -50,10 +50,16 @@ $(document).ready(function(){
         .children('.photo').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
     })
 
+
+
     var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function slideTimer(n) {
   showSlides(slideIndex += n);
 }
 
@@ -76,3 +82,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " dotty";
 }
+
+function slideshow() {
+  window.setInterval("plusSlides(1)", 7000);
+};
+
+$(document).ready(slideshow);

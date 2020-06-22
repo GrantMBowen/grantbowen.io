@@ -95,17 +95,19 @@ body {
     position: relative;
     /* background-color:; */
     width: 100%;
+    height:200px;
   }
   
   /* Slides */
   .mySlides {
     display: none;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
     margin-left: 2rem;
     margin-right: 4rem;
     width: 65vw;
+    height: 100%;
     
   }
   
@@ -425,6 +427,11 @@ nav a {
             
             /* z-index: 1; */
         }
+
+        .slideshow-container {
+          
+            height:350px;
+          }
     }
 
 

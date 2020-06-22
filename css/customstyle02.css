@@ -29,6 +29,7 @@
     height: 60px;
     line-height: 60px;
     width: 100vw;
+    box-shadow: none;
     z-index: 10;
   }
   
