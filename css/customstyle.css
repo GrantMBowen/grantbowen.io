@@ -1,4 +1,17 @@
 
+.bgimage {
+    width:100%;
+    height:500px;
+    background: url('/assets/images/walker.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
 
 
 html {
@@ -14,13 +27,36 @@ body {
     padding: 0;
     background: white;
  }
+
+ .landingsection {
+     padding-top: 60px;
+ }
+
+ .clientLogo {
+     width: 75%;
+     /* height: 60px; */
+     margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+     
+ }
+
+ .clientList {
+     align-content: center;
+     margin-top: auto;
+     margin-bottom: auto;
+     padding-top: 10px;
+ }
  .hero {
     position: relative;
     width: 100vw;
     height: 98vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     z-index: 9;
  }
  /* .hero::before {
@@ -41,14 +77,101 @@ body {
     text-align: center;
     margin: 0rem;
     padding-left: 0%;
+    padding-top: 5vh;
 
  }
+ .heroheadshot{
+     width: 15vw;
+ }
+
+ .topimage {
+     width: 100%;
+
+     
+ }
+
+ /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    /* background-color:; */
+    width: 100%;
+    height:200px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    width: 65vw;
+    height: 100%;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    /* color: #888; */
+    /* font-weight: bold; */
+    /* font-size: 20px; */
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #fec006;
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    /* background: #ddd; */
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #291F06;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .dotty, .dot:hover {
+    background-color: #fec006;
+  }
+  
+
  .hero-title {
+    clear: both;
     font-size: 3rem;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
-    border-bottom: 1px solid #fec006;
+    /* border-bottom: 1px solid #fec006; */
  }
  .hero-subtitle {
     font-size: 2rem;
@@ -110,7 +233,22 @@ body {
 }
 
 .headshot {
-    width: 80%;
+   
+}
+
+.btn-floating {
+    background-color: #fec006;
+    box-shadow: 3px 3px 5px #b08f26
+}
+
+/* .btn-floating:hover {
+    background-color: #fec006;
+    box-shadow: 3px 3px 5px #b08f26
+} */
+
+.btn-floating:hover {
+    background-color: #fec006;
+    box-shadow: inset 3px 3px 5px #291F06;
 }
 
 
@@ -131,6 +269,10 @@ p {
     color: black;
 }
 
+strong {
+    font-weight: 700;
+}
+
 .bg {
     /* The image used */
     /* background-image: url("../assets/images/sugi-ban-wallpaper.jpg"); */
@@ -140,16 +282,56 @@ p {
     background-attachment: fixed; 
 }
 
+.banner {
+    width: 100vw;
+    overflow: hidden;
+    height: 20vh;
+    
+}
+
+.banner-img {
+    width: 150vw;
+    margin-top: -5%;
+}
+
+.processshot {
+    width: 100%;
+    overflow: hidden;
+    /* height: 20vh; */
+    
+}
+
+.process-img {
+    /* width: 150vw; */
+    /* margin-top: -5%; */
+    width: 100%;
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+
 #bio{
     /* display: block; */
     /* height: 80vh; */
-    /* margin: 0% 0% 0% 0%; */
-    padding-top: 35vh;
+    /* margin: 1rem 1rem 1rem 1rem; */
+    padding: 2rem 2rem 2rem 2rem;
     /* z-index: 1; */
 }
 
-#headshot {
-    size: fit-content;
+.tldr {
+    background-color: #F7F7F7;
+    padding: 1rem;
+    margin: 0rem 0rem 2rem 0rem;
+    border: 1px solid #C9C9C9;
+}
+
+.headshotContainer {
+    width: 100%;
+    overflow: auto;
+}
+.headshot {
+    width: 100%;
+    /* size: fit-content; */
 
 }
 
@@ -168,6 +350,10 @@ p {
 #portfolio-img:hover {
     opacity: .8;
 
+}
+
+.storyThumb {
+    object-fit: cover;
 }
 
 nav a {
@@ -241,6 +427,11 @@ nav a {
             
             /* z-index: 1; */
         }
+
+        .slideshow-container {
+          
+            height:350px;
+          }
     }
 
 
@@ -298,6 +489,7 @@ nav a {
                     margin: 0% 0% 0% 0%;
                     padding-left: 0%;
                     /* z-index: 1; */
+                    
                 }
                 #portfolio-title {
                     color: black;
@@ -306,4 +498,57 @@ nav a {
                     margin-right: auto;
                 }}
         
-        
+                @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+             
+                .tiles {
+                  position: relative;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 500px;
+                  /* object-fit: scale-down; */
+                }
+              
+                .tile {
+                  position: relative;
+                  float: left;
+                  max-width: 100vw;
+                  width: 100%;
+                  height: 100%;
+                  overflow: auto;
+                  
+                }
+              
+                .photo {
+                
+                  position: relative;
+                  object-fit: contain;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  transition: transform 0.2s ease-out;
+                }
+              
+                .txt {
+                  position: absolute;
+                  z-index: 2;
+                  right: 0;
+                  bottom: 10%;
+                  left: 0;
+                  font-family: 'Roboto Slab', serif;
+                  font-size: 9px;
+                  line-height: 12px;
+                  text-align: center;
+                  cursor: default;
+                }
+              
+                .x {
+                  font-size: 32px;
+                  line-height: 32px;
+                } 
+              
