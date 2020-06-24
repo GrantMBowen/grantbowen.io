@@ -53,7 +53,7 @@ body {
  .hero {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 98vh;
     display: flex;
     justify-content: left;
     align-items: left;
