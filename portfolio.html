@@ -1,130 +1,211 @@
 <!DOCTYPE html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170520907-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170520907-1');
+    </script>
+
 
     <html lang="en-us">
-    <meta charset="UTF-8">
-    <title>Grant Bowen's Code Portfolio</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant Bowen Portfolio</title>
     <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/customstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/customstyle02.css">
+
+
 </head>
 
 <body>
+    <nav id="navbar" class="">
+        <div class="nav-wrapper">
+            <!-- Navbar Logo -->
+            <div class="logo">
+                <!-- Logo Placeholder for Inlustration -->
+                <a href="#home">Grant Bowen
+                    <!-- <img id="brand" src="assets/images/initialsClean.png" alt="GB"></img>  -->
+                </a>
+            </div>
 
-
-
-    <!-- Nav Bar with Always seen Contact Me! button -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end border-bottom border-warning">
-        <a class="navbar-brand font-weight-light" href="https://itsgoodtobegrant.github.io/"
-            style="font-size: 32pt; line-height: 0.8; margin-inline-start: 20px">GB</a>
-        <a href="contact.html" class="btn btn-warning ml-auto mr-1 bg-warning" role="button">Contact</a>
-        <!-- <button class="btn btn-success ml-auto mr-1 bg-info" href="contact.html">Contact Me!</button> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-            <ul class="navbar-nav text-right">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
+            <!-- Navbar Links -->
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <!--
+            -->
+                <!-- <li><a href="#clients">Clients</a></li> -->
+                <!--
+                      -->
+                <li><a href="assets/docs/GrantBowenUXResumePublic.pdf" target='#blank'>CV</a></li>
+                <!--
+                     -->
+                <li><a href="about.html">About</a></li>
+                <!--
+            -->
+                <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+                <!--
+          
+           -->
+                <!-- <li><a href="#portfolio">Case Studies</a></li> -->
+                <!--
+          
+            -->
+                <!-- <li><a href="#contact">contact</a></li> -->
+                <!--
+           -->
+                <li><a href="mailto:grantmbowen@gmail.com">Email</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="bg">
 
-        <!-- Container for Main Content -->
+    <!-- Menu Icon -->
+    <div class="menuIcon">
+        <span class="icon icon-bars"></span>
+        <span class="icon icon-bars overlay"></span>
+    </div>
 
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="card-deck text-white">
-                    <div class="card" style="margin-top: 15px">
-                        <img class="card-img-top" src="assets/images/walker.jpg" alt="Word Guess Game">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="WordGuessGame/index.html">Word Guess Game: Walking Dead Edition</A></h5>
-                            <p class="card-text">This was my first in Class Project</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">August 2019</small>
-                        </div>
-                    </div>
 
-                    <div class="card" style="margin-top: 15px">
-                        <img class="card-img-top" src="assets/images/crystalcollector.png" alt="Crystal Collector">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="unit_4_game/index.html">Crystal Collector</a></h5>
-                            <p class="card-text">A Simple Guessing Game utilizing jQuery</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">August 2019</small>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-top: 15px">
-                        <img class="card-img-top" src="assets/images/countrybackground.jpg" alt="CountryTrivia">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="TriviaGame/index.html">Country Music Trivia Game</a></h5>
-                            <p class="card-text">Trivia Games Using jQuery and Timers</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">August 2019</small>
-                        </div>
-                    </div>
+    <div class="overlay-menu">
+        <ul id="menu">
+            <li><a href="#casestudies">Case Studies</a></li>
+            <li><a href="assets/docs/GrantBowenUXResumePublic.pdf" target='#blank'>CV</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="mailto:grantmbowen@gmail.com">Contact</a></li> -->
+        </ul>
+    </div>
+    <a name="top"></a>
+
+
+
+
+
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+        <div class="slider fullscreen" >
+            <ul class='slides'>
+
+            <li class="slide red white-text" href="#one!">
+                <img src="assets/images/Friendle_userjourney01.png" alt="...">
+                <div class='caption right-align'>
+                    <h2 style='color: black;'>Understanding the Process</h2>
+                    <p class="black-text">Creating User Flows, Mockups, and Prototypes</p>
+                    <a class="btn waves-effect btn-warning white-text">See More</a>
                 </div>
+            </li>
+            <li class="slide amber white-text" href="#two!">
+                    <img src="assets/images/portfolioImgs/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="...">
+                <div class='caption right-align'>
+                <h2 style='color: white;'>Building the Product</h2>
+                <p class="white-text">Application Design and Development</p>
+                 <a class="btn waves-effect btn-warning white-text">See More</a>
+                
             </div>
-            <div class="row justify-content-center">
-                    <div class="card-deck text-white">
-                        <div class="card" style="margin-top: 15px">
-                            <img class="card-img-top" src="assets/images/MovieSearcher.png" alt="MovieSearch">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="GiphySearcher/index.html">Movie GIFs</a></h5>
-                                <p class="card-text">API calls for GIFs</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">September 2019</small>
-                            </div>
-                        </div>
-    
-                        <div class="card" style="margin-top: 15px">
-                            <img class="card-img-top" src="assets/images/TrainSchedulerScreenshot.png" alt="Train Scheduler Screenshot">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="TrainScheduler/index.html">Train Scheduler</a></h5>
-                                <p class="card-text">An App using persistent database storage</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">September 2019</small>
-                            </div>
-                        </div>
-                        <div class="card" style="margin-top: 15px">
-                            <img class="card-img-top" src="assets/images/DateNightthumb.png" alt="Date Night App">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="https://nolimits1.github.io/project-one/">Date Night</a></h5>
-                                <p class="card-text">Group Project using multiple APIs and MaterializeCSS</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">September 2019</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            </li>
+            <li class="slide green white-text" href="#three!">
+                    <img src="assets/images/portfolioImgs/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg" alt="...">
+                    <div class='caption left-align'>
+                    <h2 style='color: white;'>Crafting the Look</h2>
+                    <p class="white-text">2d Layout and Design for Screen and Print</p>
+                     <a class="btn waves-effect btn-warning white-text">See More</a>
+                    
+            </li>
+            <li class="slide blue white-text" href="#four!">
+                    <img src="assets/images/portfolioImgs/DSC04730.JPG" alt="...">
+                    <div class='caption right-align'>
+                    <h2 style='color: white;'>Miscellany</h2>
+                    <p class="white-text">Environments Design, 3d Rendering, and Image Manipulation</p>
+                     <a class="btn waves-effect btn-warning white-text">See More</a>
+            </li>
+        </ul>
         </div>
     </div>
-    <br>
-    <br>
 
+    <!-- Container for Main Content -->
+
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large" style="text-decoration: none;">
+            <i class="large material-icons" style="font-size: 3em; color: black">account_circle</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating black tooltipped" data-position="left" data-tooltip="Call Me"
+                    href="tel:+14056277014"><i class="material-icons">call</i></a></li>
+            <li><a class="btn-floating grey darken-3 tooltipped" data-position="left" data-tooltip="Email Me"
+                    href="mailto:itsgoodtobegrant@gmail.com"><i class="material-icons">contact_mail</i></a></li>
+            <li><a class="btn-floating grey darken-2 tooltipped" data-position="left" data-tooltip="LinkedIn"
+                    href="https://linkedin.com/in/grantmbowen/" target="_blank"><img
+                        src='assets/icons/linkedin-3-128.gif' style='width: 1.5rem;'></img></a></li>
+            <li><a class="btn-floating grey darken-1 tooltipped" data-position="left" data-tooltip="My Resume"
+                    target="_blank" href="assets/docs/UXResumeGrantBowen 050920.pdf"><i class='material-icons'>attachment</i>
+                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                            font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                            style="mix-blend-mode: normal">
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,35.9265 26.4665,65.5965 60.9525,70.778v-51.78633h-17.73033v-18.84117h17.73033v-12.5345c0,-20.75467 10.11217,-29.8635 27.36233,-29.8635c8.26317,0 12.62767,0.60917 14.69883,0.88867v16.44033h-11.76767c-7.32433,0 -9.88283,6.9445 -9.88283,14.7705v10.2985h21.46417l-2.90967,18.84117h-18.54733v51.93683c34.9805,-4.73717 61.963,-34.65083 61.963,-70.9285c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg></a></li>
+            <li><a class="btn-floating grey darken tooltipped" data-position="left" data-tooltip="Back to the Top"
+                    href="#top"><i class="material-icons">arrow_upward</i></a></li>
+        </ul>
     </div>
+
+
+
+
+
     <div id="footer">
-        <div class="container fixed-bottom border-top border-warning">
-            <p class="footer-block bg-none text-white">©2019</p>
+        <div class="container fixed-bottom border-top border-warning" style="border-color: #b08f26;">
+            <!-- <p class="footer-block bg-none text-white"></p> -->
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <Script src="js/javascript.js"></Script>
 
 
 </body>
+
+</html>
