@@ -144,11 +144,12 @@
 
   #submenu ul {
     display: inline-block;
-    float: center;
+    float: none;
+    margin: auto;
     list-style: none;
     /* margin-right: 14px; */
     margin-top: -2px;
-    text-align: right;
+    text-align: center;
     transition: transform 0.5s ease-out;
     -webkit-transition: transform 0.5s ease-out;
   } @media(max-width: 640px) {
