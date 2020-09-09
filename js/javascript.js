@@ -4,9 +4,12 @@ $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
     $('.tooltipped').tooltip();
     // $('.modal').modal();
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+      indicators: true
+    });
     $('.slider').slider();
     $('.materialboxed').materialbox();
+    $(".dropdown-trigger").dropdown();
    
 
 
