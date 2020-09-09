@@ -1,6 +1,19 @@
+
 $(document).ready(function(){
+  
     $('.fixed-action-btn').floatingActionButton();
     $('.tooltipped').tooltip();
+    // $('.modal').modal();
+    $('.carousel').carousel({
+      indicators: true
+    });
+    $('.slider').slider();
+    $('.materialboxed').materialbox();
+    $(".dropdown-trigger").dropdown();
+   
+
+
+     
   });
 
   let menuIcon = document.querySelector('.menuIcon');
@@ -88,3 +101,4 @@ function slideshow() {
 };
 
 $(document).ready(slideshow);
+
