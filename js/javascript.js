@@ -97,7 +97,7 @@ function showSlides(n) {
 }
 
 function slideshow() {
-  window.setInterval("plusSlides(1)", 7000);
+  window.setInterval("plusSlides(1)", 10000);
 };
 
 $(document).ready(slideshow);
